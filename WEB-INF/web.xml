@@ -1,0 +1,178 @@
+<web-app>
+     <listener>
+        <listener-class>SessionCounterListener</listener-class>
+    </listener>
+<servlet>
+    <servlet-name>check</servlet-name>
+    <servlet-class>MyServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>check</servlet-name>
+    <url-pattern>/check</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>create</servlet-name>
+    <servlet-class>CreateAccount</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>create</servlet-name>
+    <url-pattern>/create</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>signin</servlet-name>
+    <servlet-class>SignIn</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>signin</servlet-name>
+    <url-pattern>/signin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>welcome</servlet-name>
+    <servlet-class>Welcome</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>welcome</servlet-name>
+    <url-pattern>/welcome</url-pattern>
+</servlet-mapping>
+
+
+ <servlet>
+    <servlet-name>adminsignin</servlet-name>
+    <servlet-class>AdminSignIn</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>adminsignin</servlet-name>
+    <url-pattern>/adminsignin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>signout</servlet-name>
+    <servlet-class>SignOut</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>signout</servlet-name>
+    <url-pattern>/signout</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>imageupload</servlet-name>
+    <servlet-class>UploadImage</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>imageupload</servlet-name>
+    <url-pattern>/imageupload</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>amountreq</servlet-name>
+    <servlet-class>Amountreq</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>amountreq</servlet-name>
+    <url-pattern>/amountreq</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>remove</servlet-name>
+    <servlet-class>Remove</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>remove</servlet-name>
+    <url-pattern>/remove</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>chatsend</servlet-name>
+    <servlet-class>ChatSend</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>chatsend</servlet-name>
+    <url-pattern>/chatsend</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>mychatsend</servlet-name>
+    <servlet-class>MyChatSend</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>mychatsend</servlet-name>
+    <url-pattern>/mychatsend</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>chatdelete</servlet-name>
+    <servlet-class>ChatDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>chatdelete</servlet-name>
+    <url-pattern>/chatdelete</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>userremove</servlet-name>
+    <servlet-class>UserRemove</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>userremove</servlet-name>
+    <url-pattern>/userremove</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>marksold</servlet-name>
+    <servlet-class>MarkSold</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>marksold</servlet-name>
+    <url-pattern>/marksold</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>adminproductremove</servlet-name>
+    <servlet-class>AdminProductRemove</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>adminproductremove</servlet-name>
+    <url-pattern>/adminproductremove</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+    <servlet-name>updatecost</servlet-name>
+    <servlet-class>UpdateCost</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>updatecost</servlet-name>
+    <url-pattern>/updatecost</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+    <servlet-name>updater</servlet-name>
+    <servlet-class>UpdateProfile</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>updater</servlet-name>
+    <url-pattern>/updater</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>chatsender</servlet-name>
+    <servlet-class>ChatServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>chatsender</servlet-name>
+    <url-pattern>/chatsender</url-pattern>
+</servlet-mapping>
+</web-app>
+
